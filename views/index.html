@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FCC Header Parser</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link  rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/client.js"></script>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+          <span>Manage Node.js projects and npm packages using package.json</span><br>
+          <span class="sub_title">Part 3 of Free Code Camp Backend Challenges</span><br><br>
+      </div>
+      <div class="middler">
+          <span class="mid_title"><h4><b>URL Shortener Microservice</b></h4></span>
+        <span class="sub_mid_title"><b>AUser Stories:</b></span><br>
+              <ol>
+                <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+                </li>
+                <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.
+                </li>
+                <li>When I visit that shortened URL, it will redirect me to my original link.
+                </li>
+              </ol>
+<!--         <a href="https://fcc-head-parser.glitch.me/yourdata" target="_blank"><button class="btn  btn-sm btn-default">
+          Press me
+        </button></a><br><br> -->
+        <span class="sub_mid_title"><b>Example usage:</b></span><br>
+            <pre><code>https://fcc-url-shortner.glitch.me/toshort/https://www.yandex.ru</code><br></pre>
+        <span class="sub_mid_title" id="link"><b>Example output:</b></span><br>
+          <code id="exl">{ "original_url":"https://www.yandex.ru","short_url":"http://fcc-url-shortner.glitch.me/1552" }</code><br><br>
+          <a href="https://github.com/kmzAnton/FCC-GLITCH-HEADER-PARSER" target="_blank">Visit GitHub Repository</a>
+        </div> 
+      </div>
+  </body>
+</html>
